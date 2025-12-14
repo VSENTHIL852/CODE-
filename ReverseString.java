@@ -4,7 +4,7 @@ public class ReverseString{
         String str="senthil";
         String n=rev(str);
         System.out.print(n);
-            }
+        }
     static String rev(String str){
         char[] arr=str.toCharArray();
         int i=0,j=arr.length-1;

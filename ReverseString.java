@@ -13,7 +13,7 @@ public class ReverseString{
             arr[i]=arr[j];
             arr[j]=tmp;
             i++;
-            j--;
+            j--; 
         }
         return new String(arr);
     }
